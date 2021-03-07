@@ -73,8 +73,8 @@ body {
 	bottom: 0.58%;
 	border-radius: 10%;
 	transition-property: background;
-    transition-duration: 1s;
-	transition-timing-function: linear;
+    transition-duration: 700ms;
+	transition-timing-function: ease-in-out;
 }
 .linkedin:hover {
     background: #2d778d;
@@ -88,8 +88,8 @@ body {
 	bottom: 0.45%;
 	border-radius: 10%;	
 	transition-property: background;
-    transition-duration: 1s;
-	transition-timing-function: linear;
+    transition-duration: 700ms;
+	transition-timing-function: ease-in-out;
 }
 .github:hover {
     background: #2d778d;
@@ -102,8 +102,8 @@ body {
 	bottom: 0%;
 	border-radius: 10%;
 	transition-property: background;
-    transition-duration: 1s;
-	transition-timing-function: linear;
+    transition-duration: 700ms;
+	transition-timing-function: ease-in-out;
 }
 .file:hover {
     background: #2d778d;
