@@ -1,26 +1,59 @@
 body {
   
 }
-h1 {
-	margin: 1em 0 0.5em 0;
-	color: #343434;
-	font-weight: normal;
-	font-family: 'Ultra', sans-serif;   
-	font-size: 36px;
-	line-height: 42px;
-	text-transform: uppercase;
-	text-shadow: 0 2px white, 0 3px #777;
+
+.titlebox {
+	position: absolute;
+	width: 550px;
+	height: 108px;
+	left: 445px;
+	top: 56px;
+
+	background: #C4C4C4;
+	border: 17px solid #FFFFFF;
+	backdrop-filter: blur(4px);
+	
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 90px;
+	transition-property: background, border-radius;
+    transition-duration: 1s;
+	transition-timing-function: linear;
+	
 }
 
-.nav {
-	width: 80%;
-	margin-left: 10%;
-	padding: 20px;
-	background-color: #f0e68c;
-	border-radius: 100pc;
-	float: left;
+.titlebox:hover {
+    background: #f0db95;
+    /* border-radius: 10%; */
+  }
+
+.cartoon {
+	position: absolute;
+	left: 10.17%;
+	right: 61.38%;
+	top: 12%;
+	bottom: 83.44%;
+	filter: saturate(2);
+	mix-blend-mode: multiply;
 }
 
-.navChild {
-	padding: 2rem;
+.name {
+	position: absolute;
+	width: 369px;
+	height: 108px;
+	left: 162px;
+	top: -35px;
+
+	font-family: Rowdies;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 33px;
+	line-height: 100px;
+	/* or 303% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
 }
