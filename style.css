@@ -25,7 +25,7 @@ body {
 .titlebox:hover {
     background: #f0db95;
     /* border-radius: 10%; */
-  }
+}
 
 .cartoon {
 	position: absolute;
@@ -56,4 +56,55 @@ body {
 	text-align: center;
 
 	color: #000000;
+}
+
+.links {
+	position: absolute;
+	width: 1112px;
+	height: 330px;
+	left: 173px;
+	top: 28%;
+}
+.linkedin {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0.04%;
+	bottom: 0.58%;
+	border-radius: 10%;
+	transition-property: background;
+    transition-duration: 1s;
+	transition-timing-function: linear;
+}
+.linkedin:hover {
+    background: #2d778d;
+}
+
+.github {
+	position: absolute;
+	left: 43%;
+	right: 0%;
+	top: 0.16%;
+	bottom: 0.45%;
+	border-radius: 10%;	
+	transition-property: background;
+    transition-duration: 1s;
+	transition-timing-function: linear;
+}
+.github:hover {
+    background: #2d778d;
+}
+
+.file{
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	border-radius: 10%;
+	transition-property: background;
+    transition-duration: 1s;
+	transition-timing-function: linear;
+}
+.file:hover {
+    background: #2d778d;
 }
